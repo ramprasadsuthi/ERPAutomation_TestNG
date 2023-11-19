@@ -3,14 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationScripts.HomePageModule">
+      <class name="automationScripts.LoginModule">
         <methods>
           <include name="setUp"/>
-          <include name="TC10_AccessToPurchasesPage"/>
-          <include name="closeApp"/>
           <include name="setup"/>
+          <include name="closeApp"/>
+          <include name="TC2_Logout"/>
+          <include name="TC3_InvalidLogin"/>
+          <include name="TC4_RESET"/>
+          <include name="TC1_ValidLogin"/>
         </methods>
-      </class> <!-- automationScripts.HomePageModule -->
+      </class> <!-- automationScripts.LoginModule -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

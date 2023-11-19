@@ -17,7 +17,7 @@ import dataManager.BaseTest;
 import dataManager.ExcelDataReader;
 import java.io.IOException;
 
-public class LoginModule extends BaseTest{
+public class LoginModule extends BaseTest {
 	private WebDriver driver;
     private LoginPage lp;
     private HomePage hp;
