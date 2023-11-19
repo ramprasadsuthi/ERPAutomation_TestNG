@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ERP Stock Accounting]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="StockItems Module(failed)">
+    <classes>
+      <class name="automationScripts.StockItemsModule">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeApp"/>
+          <include name="TC21_DeleteSearchFilter"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- automationScripts.StockItemsModule -->
+    </classes>
+  </test> <!-- StockItems Module(failed) -->
+</suite> <!-- Failed suite [ERP Stock Accounting] -->

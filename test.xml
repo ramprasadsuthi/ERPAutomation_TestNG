@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ERP Stock Accounting" >
+
+  <test name="Login Module">
+    <classes>
+      <class name="automationScripts.LoginModule"></class> 
+    </classes>
+  </test> 
+  
+  <test name="HomePage Module">
+    <classes>
+      <class name="automationScripts.HomePageModule"></class>
+    </classes>
+  </test> 
+  
+   <test name="StockItems Module">
+    <classes>
+      <class name="automationScripts.StockItemsModule"></class>
+    </classes>
+  </test> 
+  
+</suite> 

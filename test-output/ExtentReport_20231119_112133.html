@@ -1,0 +1,2336 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 19, 2023 11:21:33 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">HomePage</a><a class="dropdown-item" href="#">StockItemsModule</a><a class="dropdown-item" href="#">LoginPage</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="LoginPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC1_ValidLogin</p>
+            <p class="text-sm">
+              <span>11:21:41 am</span> / <span>00:00:01:965</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC1_ValidLogin</h5>
+<span class='badge badge-success'>11.19.2023 11:21:41 am</span>
+<span class='badge badge-danger'>11.19.2023 11:21:43 am</span>
+<span class='badge badge-default'>00:00:01:965</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LoginPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:43 am</td>
+        <td>
+          Login to ERP Application is success
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:21:43 am</td>
+        <td>
+          Test Case Passed: TC1_ValidLogin
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="LoginPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC2_Logout</p>
+            <p class="text-sm">
+              <span>11:21:47 am</span> / <span>00:00:02:441</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC2_Logout</h5>
+<span class='badge badge-success'>11.19.2023 11:21:47 am</span>
+<span class='badge badge-danger'>11.19.2023 11:21:49 am</span>
+<span class='badge badge-default'>00:00:02:441</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LoginPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:49 am</td>
+        <td>
+          Login to ERP Application is success
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:49 am</td>
+        <td>
+          Click on Logout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:49 am</td>
+        <td>
+          Logout is success - Test Pass
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:21:49 am</td>
+        <td>
+          Test Case Passed: TC2_Logout
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="LoginPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC3_InvalidLogin</p>
+            <p class="text-sm">
+              <span>11:21:53 am</span> / <span>00:00:01:713</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC3_InvalidLogin</h5>
+<span class='badge badge-success'>11.19.2023 11:21:53 am</span>
+<span class='badge badge-danger'>11.19.2023 11:21:54 am</span>
+<span class='badge badge-default'>00:00:01:713</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LoginPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:54 am</td>
+        <td>
+          Invalid Login test is success
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:21:54 am</td>
+        <td>
+          Test Case Passed: TC3_InvalidLogin
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="LoginPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC4_RESET</p>
+            <p class="text-sm">
+              <span>11:21:59 am</span> / <span>00:00:01:325</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC4_RESET</h5>
+<span class='badge badge-success'>11.19.2023 11:21:59 am</span>
+<span class='badge badge-danger'>11.19.2023 11:22:00 am</span>
+<span class='badge badge-default'>00:00:01:325</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LoginPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:00 am</td>
+        <td>
+          RESET test is success
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:22:00 am</td>
+        <td>
+          Test Case Passed: TC4_RESET
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="HomePage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC10_AccessToPurchasesPage</p>
+            <p class="text-sm">
+              <span>11:22:05 am</span> / <span>00:00:00:662</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC10_AccessToPurchasesPage</h5>
+<span class='badge badge-success'>11.19.2023 11:22:05 am</span>
+<span class='badge badge-danger'>11.19.2023 11:22:06 am</span>
+<span class='badge badge-default'>00:00:00:662</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:06 am</td>
+        <td>
+          Access to Purchases page is success - Test Pass
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:22:06 am</td>
+        <td>
+          Test Case Passed: TC10_AccessToPurchasesPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="HomePage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC11_AccessToSalesPage</p>
+            <p class="text-sm">
+              <span>11:22:11 am</span> / <span>00:00:00:816</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC11_AccessToSalesPage</h5>
+<span class='badge badge-success'>11.19.2023 11:22:11 am</span>
+<span class='badge badge-danger'>11.19.2023 11:22:12 am</span>
+<span class='badge badge-default'>00:00:00:816</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:12 am</td>
+        <td>
+          Access to Sales page is success - Test Pass
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:22:12 am</td>
+        <td>
+          Test Case Passed: TC11_AccessToSalesPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="HomePage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC5_AccessToStockItemsPage</p>
+            <p class="text-sm">
+              <span>11:22:17 am</span> / <span>00:00:00:727</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC5_AccessToStockItemsPage</h5>
+<span class='badge badge-success'>11.19.2023 11:22:17 am</span>
+<span class='badge badge-danger'>11.19.2023 11:22:17 am</span>
+<span class='badge badge-default'>00:00:00:727</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:17 am</td>
+        <td>
+          Access to stock Items page is success
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:22:17 am</td>
+        <td>
+          Test Case Passed: TC5_AccessToStockItemsPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="HomePage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC6_AccessToCustomersPage</p>
+            <p class="text-sm">
+              <span>11:22:22 am</span> / <span>00:00:00:827</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC6_AccessToCustomersPage</h5>
+<span class='badge badge-success'>11.19.2023 11:22:22 am</span>
+<span class='badge badge-danger'>11.19.2023 11:22:23 am</span>
+<span class='badge badge-default'>00:00:00:827</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:23 am</td>
+        <td>
+          Access to Customers page is success - Test Pass
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:22:23 am</td>
+        <td>
+          Test Case Passed: TC6_AccessToCustomersPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="HomePage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC7_AccessToStockCategoriesPage</p>
+            <p class="text-sm">
+              <span>11:22:28 am</span> / <span>00:00:00:873</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC7_AccessToStockCategoriesPage</h5>
+<span class='badge badge-success'>11.19.2023 11:22:28 am</span>
+<span class='badge badge-danger'>11.19.2023 11:22:29 am</span>
+<span class='badge badge-default'>00:00:00:873</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:29 am</td>
+        <td>
+          Access to Stock Categories page is success - Test Pass
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:22:29 am</td>
+        <td>
+          Test Case Passed: TC7_AccessToStockCategoriesPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag="HomePage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC8_AccessToUOMPage</p>
+            <p class="text-sm">
+              <span>11:22:34 am</span> / <span>00:00:00:934</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC8_AccessToUOMPage</h5>
+<span class='badge badge-success'>11.19.2023 11:22:34 am</span>
+<span class='badge badge-danger'>11.19.2023 11:22:35 am</span>
+<span class='badge badge-default'>00:00:00:934</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:35 am</td>
+        <td>
+          Access to Unit of Measurement page is success - Test Pass
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:22:35 am</td>
+        <td>
+          Test Case Passed: TC8_AccessToUOMPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="HomePage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC9_AccessToSuppliersPage</p>
+            <p class="text-sm">
+              <span>11:22:41 am</span> / <span>00:00:00:828</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC9_AccessToSuppliersPage</h5>
+<span class='badge badge-success'>11.19.2023 11:22:41 am</span>
+<span class='badge badge-danger'>11.19.2023 11:22:42 am</span>
+<span class='badge badge-default'>00:00:00:828</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:42 am</td>
+        <td>
+          Access to Suppliers page is success - Test Pass
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:22:42 am</td>
+        <td>
+          Test Case Passed: TC9_AccessToSuppliersPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC12_CreateNewStockItem</p>
+            <p class="text-sm">
+              <span>11:22:46 am</span> / <span>00:00:02:849</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC12_CreateNewStockItem</h5>
+<span class='badge badge-success'>11.19.2023 11:22:46 am</span>
+<span class='badge badge-danger'>11.19.2023 11:22:49 am</span>
+<span class='badge badge-default'>00:00:02:849</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:47 am</td>
+        <td>
+          Stock Items page is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:48 am</td>
+        <td>
+          Category Name selected as Electronics
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:48 am</td>
+        <td>
+          Supplier Name selected as Gupta Enterprises
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:48 am</td>
+        <td>
+          Stock Name entered as Samsung S30
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:48 am</td>
+        <td>
+          Unit of Measurement Name selected as unit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:48 am</td>
+        <td>
+          Purchase price entered as 65000.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:48 am</td>
+        <td>
+          Selling price entered as 85000.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:49 am</td>
+        <td>
+          Stock Notes entered as 100 units
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:49 am</td>
+        <td>
+          Clicked on confirm button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:22:49 am</td>
+        <td>
+          Test Case Passed: TC12_CreateNewStockItem
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC13_CreateNewStockCategory</p>
+            <p class="text-sm">
+              <span>11:22:54 am</span> / <span>00:00:01:810</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC13_CreateNewStockCategory</h5>
+<span class='badge badge-success'>11.19.2023 11:22:54 am</span>
+<span class='badge badge-danger'>11.19.2023 11:22:56 am</span>
+<span class='badge badge-default'>00:00:01:810</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:55 am</td>
+        <td>
+          Stock Categories page is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:55 am</td>
+        <td>
+          Category Name entered as Laptops
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:56 am</td>
+        <td>
+          Clicked on confirm button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:22:56 am</td>
+        <td>
+          Test Case Passed: TC13_CreateNewStockCategory
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC13_CreateNewStockCategory</p>
+            <p class="text-sm">
+              <span>11:23:00 am</span> / <span>00:00:01:988</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC13_CreateNewStockCategory</h5>
+<span class='badge badge-success'>11.19.2023 11:23:00 am</span>
+<span class='badge badge-danger'>11.19.2023 11:23:02 am</span>
+<span class='badge badge-default'>00:00:01:988</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:01 am</td>
+        <td>
+          Stock Categories page is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:02 am</td>
+        <td>
+          Category Name entered as Storage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:02 am</td>
+        <td>
+          Clicked on confirm button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:23:02 am</td>
+        <td>
+          Test Case Passed: TC13_CreateNewStockCategory
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC13_CreateNewStockCategory</p>
+            <p class="text-sm">
+              <span>11:23:07 am</span> / <span>00:00:02:101</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC13_CreateNewStockCategory</h5>
+<span class='badge badge-success'>11.19.2023 11:23:07 am</span>
+<span class='badge badge-danger'>11.19.2023 11:23:09 am</span>
+<span class='badge badge-default'>00:00:02:101</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:08 am</td>
+        <td>
+          Stock Categories page is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:08 am</td>
+        <td>
+          Category Name entered as Mobiles
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:09 am</td>
+        <td>
+          Clicked on confirm button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:23:09 am</td>
+        <td>
+          Test Case Passed: TC13_CreateNewStockCategory
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC14_CreateNewUOM</p>
+            <p class="text-sm">
+              <span>11:23:14 am</span> / <span>00:00:01:850</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC14_CreateNewUOM</h5>
+<span class='badge badge-success'>11.19.2023 11:23:14 am</span>
+<span class='badge badge-danger'>11.19.2023 11:23:16 am</span>
+<span class='badge badge-default'>00:00:01:850</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:15 am</td>
+        <td>
+          Unit of Measurement page is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:15 am</td>
+        <td>
+          UOM Details entered as Units
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:16 am</td>
+        <td>
+          Clicked on confirm button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:23:16 am</td>
+        <td>
+          Test Case Passed: TC14_CreateNewUOM
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC14_CreateNewUOM</p>
+            <p class="text-sm">
+              <span>11:23:20 am</span> / <span>00:00:01:843</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC14_CreateNewUOM</h5>
+<span class='badge badge-success'>11.19.2023 11:23:20 am</span>
+<span class='badge badge-danger'>11.19.2023 11:23:22 am</span>
+<span class='badge badge-default'>00:00:01:843</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:21 am</td>
+        <td>
+          Unit of Measurement page is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:22 am</td>
+        <td>
+          UOM Details entered as Kgs
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:22 am</td>
+        <td>
+          Clicked on confirm button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:23:22 am</td>
+        <td>
+          Test Case Passed: TC14_CreateNewUOM
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC14_CreateNewUOM</p>
+            <p class="text-sm">
+              <span>11:23:27 am</span> / <span>00:00:01:899</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC14_CreateNewUOM</h5>
+<span class='badge badge-success'>11.19.2023 11:23:27 am</span>
+<span class='badge badge-danger'>11.19.2023 11:23:29 am</span>
+<span class='badge badge-default'>00:00:01:899</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:27 am</td>
+        <td>
+          Unit of Measurement page is displayed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:28 am</td>
+        <td>
+          UOM Details entered as Grams
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:29 am</td>
+        <td>
+          Clicked on confirm button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:23:29 am</td>
+        <td>
+          Test Case Passed: TC14_CreateNewUOM
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC15_StockItemSimpleSearch</p>
+            <p class="text-sm">
+              <span>11:23:34 am</span> / <span>00:00:01:755</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC15_StockItemSimpleSearch</h5>
+<span class='badge badge-success'>11.19.2023 11:23:34 am</span>
+<span class='badge badge-danger'>11.19.2023 11:23:36 am</span>
+<span class='badge badge-default'>00:00:01:755</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:36 am</td>
+        <td>
+          Search successful Stock Item Samsung S30 found..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:23:36 am</td>
+        <td>
+          Test Case Passed: TC15_StockItemSimpleSearch
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC16_StockItemAdvancedSearch</p>
+            <p class="text-sm">
+              <span>11:23:40 am</span> / <span>00:00:02:463</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC16_StockItemAdvancedSearch</h5>
+<span class='badge badge-success'>11.19.2023 11:23:40 am</span>
+<span class='badge badge-danger'>11.19.2023 11:23:43 am</span>
+<span class='badge badge-default'>00:00:02:463</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:43 am</td>
+        <td>
+          Advanced Search successful Stock Items found..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:23:43 am</td>
+        <td>
+          Test Case Passed: TC16_StockItemAdvancedSearch
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC17_UpdateTheStockItem</p>
+            <p class="text-sm">
+              <span>11:23:47 am</span> / <span>00:00:03:081</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC17_UpdateTheStockItem</h5>
+<span class='badge badge-success'>11.19.2023 11:23:47 am</span>
+<span class='badge badge-danger'>11.19.2023 11:23:50 am</span>
+<span class='badge badge-default'>00:00:03:081</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:50 am</td>
+        <td>
+          Updating Stock Item is sucessful..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:23:50 am</td>
+        <td>
+          Test Case Passed: TC17_UpdateTheStockItem
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC18_DeleteTheStockItem</p>
+            <p class="text-sm">
+              <span>11:23:55 am</span> / <span>00:00:01:742</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC18_DeleteTheStockItem</h5>
+<span class='badge badge-success'>11.19.2023 11:23:55 am</span>
+<span class='badge badge-danger'>11.19.2023 11:23:57 am</span>
+<span class='badge badge-default'>00:00:01:742</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:56 am</td>
+        <td>
+          Selecting the Stock Item to Delete..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:57 am</td>
+        <td>
+          Deleting Stock Item is sucessful..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:23:57 am</td>
+        <td>
+          Test Case Passed: TC18_DeleteTheStockItem
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC19_DeleteMultipleStockItem</p>
+            <p class="text-sm">
+              <span>11:24:02 am</span> / <span>00:00:02:005</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC19_DeleteMultipleStockItem</h5>
+<span class='badge badge-success'>11.19.2023 11:24:02 am</span>
+<span class='badge badge-danger'>11.19.2023 11:24:04 am</span>
+<span class='badge badge-default'>00:00:02:005</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:03 am</td>
+        <td>
+          Selecting the Stock Items to Delete..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:04 am</td>
+        <td>
+          Deleting Stock Items is sucessful..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:04 am</td>
+        <td>
+          Test Case Passed: TC19_DeleteMultipleStockItem
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC20_CreateSearchFilter</p>
+            <p class="text-sm">
+              <span>11:24:08 am</span> / <span>00:00:02:208</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC20_CreateSearchFilter</h5>
+<span class='badge badge-success'>11.19.2023 11:24:08 am</span>
+<span class='badge badge-danger'>11.19.2023 11:24:11 am</span>
+<span class='badge badge-default'>00:00:02:208</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:11 am</td>
+        <td>
+          Creating a Search filter is successful..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:11 am</td>
+        <td>
+          Test Case Passed: TC20_CreateSearchFilter
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="25"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC21_DeleteSearchFilter</p>
+            <p class="text-sm">
+              <span>11:24:15 am</span> / <span>00:00:01:163</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">TC21_DeleteSearchFilter</h5>
+<span class='badge badge-success'>11.19.2023 11:24:15 am</span>
+<span class='badge badge-danger'>11.19.2023 11:24:17 am</span>
+<span class='badge badge-default'>00:00:01:163</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:24:17 am</td>
+        <td>
+          Assertion failed: expected [false] but found [true]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:24:17 am</td>
+        <td>
+          Exception details: java.lang.AssertionError: expected [false] but found [true]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:24:17 am</td>
+        <td>
+          Test Case Failed: TC21_DeleteSearchFilter
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC22_ExportStockItemsInAWordFormat</p>
+            <p class="text-sm">
+              <span>11:24:21 am</span> / <span>00:00:01:254</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC22_ExportStockItemsInAWordFormat</h5>
+<span class='badge badge-success'>11.19.2023 11:24:21 am</span>
+<span class='badge badge-danger'>11.19.2023 11:24:22 am</span>
+<span class='badge badge-default'>00:00:01:254</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:22 am</td>
+        <td>
+          Export StockItems in word format is success..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:22 am</td>
+        <td>
+          Test Case Passed: TC22_ExportStockItemsInAWordFormat
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC23_ExportStockItemsInAExcelFormat</p>
+            <p class="text-sm">
+              <span>11:24:27 am</span> / <span>00:00:01:149</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC23_ExportStockItemsInAExcelFormat</h5>
+<span class='badge badge-success'>11.19.2023 11:24:27 am</span>
+<span class='badge badge-danger'>11.19.2023 11:24:28 am</span>
+<span class='badge badge-default'>00:00:01:149</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:28 am</td>
+        <td>
+          Export StockItems in excel format is success..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:28 am</td>
+        <td>
+          Test Case Passed: TC23_ExportStockItemsInAExcelFormat
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC24_ExportStockItemsPrintOption</p>
+            <p class="text-sm">
+              <span>11:24:33 am</span> / <span>00:00:01:052</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC24_ExportStockItemsPrintOption</h5>
+<span class='badge badge-success'>11.19.2023 11:24:33 am</span>
+<span class='badge badge-danger'>11.19.2023 11:24:34 am</span>
+<span class='badge badge-default'>00:00:01:052</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:34 am</td>
+        <td>
+          Export StockItems in print option is success..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:34 am</td>
+        <td>
+          Test Case Passed: TC24_ExportStockItemsPrintOption
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC26_ExportStockItemsInCSVFormat</p>
+            <p class="text-sm">
+              <span>11:24:39 am</span> / <span>00:00:08:530</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC26_ExportStockItemsInCSVFormat</h5>
+<span class='badge badge-success'>11.19.2023 11:24:39 am</span>
+<span class='badge badge-danger'>11.19.2023 11:24:48 am</span>
+<span class='badge badge-default'>00:00:08:530</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:48 am</td>
+        <td>
+          Export StockItems in csv format is success..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:48 am</td>
+        <td>
+          Test Case Passed: TC26_ExportStockItemsInCSVFormat
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC27_ExportStockItemsInXMLFormat</p>
+            <p class="text-sm">
+              <span>11:24:53 am</span> / <span>00:00:01:055</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC27_ExportStockItemsInXMLFormat</h5>
+<span class='badge badge-success'>11.19.2023 11:24:53 am</span>
+<span class='badge badge-danger'>11.19.2023 11:24:54 am</span>
+<span class='badge badge-default'>00:00:01:055</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:54 am</td>
+        <td>
+          Export StockItems in xml format is success..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:54 am</td>
+        <td>
+          Test Case Passed: TC27_ExportStockItemsInXMLFormat
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC28_ExportStockItemsInHTMLFormat</p>
+            <p class="text-sm">
+              <span>11:24:58 am</span> / <span>00:00:00:991</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC28_ExportStockItemsInHTMLFormat</h5>
+<span class='badge badge-success'>11.19.2023 11:24:58 am</span>
+<span class='badge badge-danger'>11.19.2023 11:24:59 am</span>
+<span class='badge badge-default'>00:00:00:991</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:59 am</td>
+        <td>
+          Export StockItems in html format is success..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:59 am</td>
+        <td>
+          Test Case Passed: TC28_ExportStockItemsInHTMLFormat
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC29_VerifyUserIsAbleToSetThePageSize</p>
+            <p class="text-sm">
+              <span>11:25:04 am</span> / <span>00:00:01:287</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC29_VerifyUserIsAbleToSetThePageSize</h5>
+<span class='badge badge-success'>11.19.2023 11:25:04 am</span>
+<span class='badge badge-danger'>11.19.2023 11:25:05 am</span>
+<span class='badge badge-default'>00:00:01:287</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:25:05 am</td>
+        <td>
+          Page Size is modification is working fine..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:05 am</td>
+        <td>
+          Test Case Passed: TC29_VerifyUserIsAbleToSetThePageSize
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author=""
+          tag="StockItemsModule"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC30_VerifyUserIsAbleToNavigateToNextPage</p>
+            <p class="text-sm">
+              <span>11:25:10 am</span> / <span>00:00:01:237</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC30_VerifyUserIsAbleToNavigateToNextPage</h5>
+<span class='badge badge-success'>11.19.2023 11:25:10 am</span>
+<span class='badge badge-danger'>11.19.2023 11:25:11 am</span>
+<span class='badge badge-default'>00:00:01:237</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">StockItemsModule</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:25:11 am</td>
+        <td>
+          Page Navigation is working fine..
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:11 am</td>
+        <td>
+          Test Case Passed: TC30_VerifyUserIsAbleToNavigateToNextPage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+</span>
+<p class="name">HomePage</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>HomePage</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:22:05 am</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TC10_AccessToPurchasesPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:22:11 am</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TC11_AccessToSalesPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:22:17 am</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TC5_AccessToStockItemsPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:22:22 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TC6_AccessToCustomersPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:22:28 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>TC7_AccessToStockCategoriesPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:22:34 am</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>TC8_AccessToUOMPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:22:41 am</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>TC9_AccessToSuppliersPage</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>21</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">StockItemsModule</p>
+<p class="duration text-sm">22 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>StockItemsModule</h4>
+<span status="pass" class='badge log pass-bg'>21 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:22:46 am</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>TC12_CreateNewStockItem</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:22:54 am</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>TC13_CreateNewStockCategory</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:23:00 am</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>TC13_CreateNewStockCategory</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:23:07 am</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>TC13_CreateNewStockCategory</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:23:14 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>TC14_CreateNewUOM</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:23:20 am</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>TC14_CreateNewUOM</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:23:27 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>TC14_CreateNewUOM</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:23:34 am</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>TC15_StockItemSimpleSearch</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:23:40 am</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>TC16_StockItemAdvancedSearch</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:23:47 am</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>TC17_UpdateTheStockItem</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:23:55 am</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>TC18_DeleteTheStockItem</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:02 am</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>TC19_DeleteMultipleStockItem</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:08 am</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>TC20_CreateSearchFilter</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:24:15 am</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>TC21_DeleteSearchFilter</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:21 am</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>TC22_ExportStockItemsInAWordFormat</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:27 am</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>TC23_ExportStockItemsInAExcelFormat</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:33 am</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>TC24_ExportStockItemsPrintOption</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:39 am</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>TC26_ExportStockItemsInCSVFormat</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:53 am</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>TC27_ExportStockItemsInXMLFormat</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:58 am</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>TC28_ExportStockItemsInHTMLFormat</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:25:04 am</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>TC29_VerifyUserIsAbleToSetThePageSize</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:25:10 am</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>TC30_VerifyUserIsAbleToNavigateToNextPage</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">LoginPage</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>LoginPage</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:21:41 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>TC1_ValidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:21:47 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>TC2_Logout</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:21:53 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>TC3_InvalidLogin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:21:59 am</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>TC4_RESET</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 19, 2023 11:21:33 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 19, 2023 11:25:11 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>32</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='96%'>
+<b>32</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='3%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='35%'><b>32</b> events passed</small></div>
+<div>
+<small data-tooltip='3%'><b>3</b> events failed,
+<b data-tooltip='%'>56</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"TC1_ValidLogin":1.965,"TC2_Logout":2.441,"TC3_InvalidLogin":1.713,"TC4_RESET":1.325,"TC10_AccessToPurchasesPage":0.662,"TC11_AccessToSalesPage":0.816,"TC5_AccessToStockItemsPage":0.727,"TC6_AccessToCustomersPage":0.827,"TC7_AccessToStockCategoriesPage":0.873,"TC8_AccessToUOMPage":0.934,"TC9_AccessToSuppliersPage":0.828,"TC12_CreateNewStockItem":2.849,"TC13_CreateNewStockCategory":1.81,"TC13_CreateNewStockCategory":1.988,"TC13_CreateNewStockCategory":2.101,"TC14_CreateNewUOM":1.85,"TC14_CreateNewUOM":1.843,"TC14_CreateNewUOM":1.899,"TC15_StockItemSimpleSearch":1.755,"TC16_StockItemAdvancedSearch":2.463,"TC17_UpdateTheStockItem":3.081,"TC18_DeleteTheStockItem":1.742,"TC19_DeleteMultipleStockItem":2.005,"TC20_CreateSearchFilter":2.208,"TC21_DeleteSearchFilter":1.163,"TC22_ExportStockItemsInAWordFormat":1.254,"TC23_ExportStockItemsInAExcelFormat":1.149,"TC24_ExportStockItemsPrintOption":1.052,"TC26_ExportStockItemsInCSVFormat":8.53,"TC27_ExportStockItemsInXMLFormat":1.055,"TC28_ExportStockItemsInHTMLFormat":0.991,"TC29_VerifyUserIsAbleToSetThePageSize":1.287,"TC30_VerifyUserIsAbleToNavigateToNextPage":1.237
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>HomePage</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>StockItemsModule</td>
+<td>21</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>95.455%</td>
+</tr>
+<tr>
+<td>LoginPage</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 32,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 32,
+failEvents: 3,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 56
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
